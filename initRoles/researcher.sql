@@ -1,0 +1,2 @@
+CREATE ROLE researcher IDENTIFIED BY geniusIsTargetNoneCanSee PASSWORD EXPIRE;
+GRANT CREATE SESSION TO researcher;
