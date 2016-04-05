@@ -1,0 +1,5 @@
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initUsers/1 initAllAccountants.sql'
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initUsers/1 initAllAdministrators.sql'
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initUsers/1 initAllMarketers.sql'
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initUsers/1 initAllResearchers.sql'
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initUsers/1 initAllTutors.sql'
