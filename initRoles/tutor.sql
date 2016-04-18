@@ -1,2 +1,2 @@
-CREATE ROLE tutor IDENTIFIED BY 1seed10tree100educate;
+CREATE ROLE tutor IDENTIFIED BY oneSeedtenTreehundredEducate;
 GRANT CREATE SESSION TO tutor;

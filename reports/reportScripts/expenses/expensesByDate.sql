@@ -1,0 +1,25 @@
+clear screen
+
+set linesize 136
+set pagesize 50000
+set underline =
+
+
+	spool C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\reports/expensesByDateIncurred.txt
+
+TTITLE LEFT 'Recent Expenses' RIGHT 'page' SQL.PNO SKIP 2-
+
+COL DATEINCURRED HEADING 'Date' FORMAT A11
+COLUMN TYPE HEADING 'Expense Type' FORMAT A20
+COL OBJECT HEADING 'Item' FORMAT A20
+COL COST HEADING 'Debit' FORMAT $999.99
+COL QUANTITY HEADING 'Number'
+COL SOURCE HEADING 'Supplier' FORMAT A20
+COL FIRSTNAME HEADING 'Ordered by' FORMAT A20
+COL LASTNAME HEADING '' FORMAT A20
+
+BREAK ON DATEINCURRED SKIP PAGE
+COMPUTE SUM LABEL 'Total' OF COST ON DATEINCURRED
+
+SELECT DATEINCURRED, TYPE, OBJECT, COST, QUANTITY, SOURCE, FIRSTNAME, LASTNAME FROM (expenseList NATURAL JOIN expenses) JOIN contacts ON contacts.contact_Id=expenses.personclaimed ORDER BY DATEINCURRED, TYPE;
+	spool off

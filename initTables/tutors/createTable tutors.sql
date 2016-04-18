@@ -1,7 +1,7 @@
 CREATE TABLE tutors
 (
-tutor_Id		char(5) 	NOT NULL 	,
-contact_Id		char(10) 	NOT NULL	,
-rateCents		int			
+tutor_Id		CHAR(5) 	NOT NULL 	PRIMARY KEY,
+contact_Id		CHAR(10) 	NOT NULL 	REFERENCES contacts(contact_Id),
+hired			DATE
 ) TABLESPACE radiosilence
 /

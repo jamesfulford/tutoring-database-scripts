@@ -1,2 +1,2 @@
-CREATE ROLE marketer IDENTIFIED BY 1984notLike1984;
+CREATE ROLE marketer IDENTIFIED BY nineteeneightyfour;
 GRANT CREATE SESSION TO marketer;

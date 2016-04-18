@@ -1,2 +1,2 @@
-CREATE ROLE accountant IDENTIFIED BY 1040ln24;
+CREATE ROLE accountant IDENTIFIED BY tenfortylinetwentyfour;
 GRANT CREATE SESSION TO accountant;
