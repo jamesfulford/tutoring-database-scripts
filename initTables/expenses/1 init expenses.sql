@@ -1,2 +1,2 @@
-@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initTables\expenseList/createTable expenseList.sql'
-@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initTables\expenseList/grantRightsToRoles expenses.sql'
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initTables\expenses/createTable expenses.sql'
+@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initTables\expenses/grantRightsToRoles expenses.sql'

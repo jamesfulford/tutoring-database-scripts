@@ -1,3 +1,3 @@
-CREATE USER rainmain IDENTIFIED BY autismSpectre DEFAULT TABLESPACE radiosilence PASSWORD EXPIRE;
+CREATE USER rainman IDENTIFIED BY autismSpectre DEFAULT TABLESPACE radiosilence PASSWORD EXPIRE;
 GRANT accountant TO rainman;
-ALTER USER rainman DEFAULT ROLE accounting;
+ALTER USER rainman DEFAULT ROLE accountant;

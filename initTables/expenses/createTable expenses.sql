@@ -1,10 +1,13 @@
 CREATE TABLE expenses
 ( 
-	expense_Id 	char(13)	NOT NULL,
-	expenseList_Id 	char(4)		NOT NULL,
-	costCents	int			,
-	taxCents	int			,
+	expense_Id 	CHAR(13)	NOT NULL	PRIMARY KEY,
+	expenseList_Id 	CHAR(4)		NOT NULL REFERENCES expenseList(expenseList_Id),
+	cost		NUMBER(*,2)		,
+	tax		NUMBER(*,2)		,
 	object 		varchar2(80)		,
-	quantity 	int
+	dateIncurred	DATE			,
+	personClaimed	CHAR(10)	NOT NULL REFERENCES contacts(contact_Id),
+	source		varchar2(80)		,
+	quantity 	INTEGER
 ) TABLESPACE radiosilence
 /

@@ -1,0 +1,12 @@
+
+Recent Expenses                                                                                                           page         1
+                                                                                                                                        
+Ordered by                                Date        Expense Type         Item                    Debit     Number Supplier            
+==================== ==================== =========== ==================== ==================== ======== ========== ====================
+James                Fulford              17-APR-16   Advertising          Nothing Really          $9.76         42 Nowhere             
+                                          17-APR-16   Advertising          Fake Data              $10.24          1 Thin Air            
+                                          17-APR-16   Office Supplies      Unreal Object          $42.72          1 Utopia              
+                                                                                                                                        
+******************** ********************                                                       --------                                
+Total                                                                                             $62.72                                
+

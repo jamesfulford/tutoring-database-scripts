@@ -1,0 +1,20 @@
+
+Locations By Contact                                page         1
+                                                                  
+First        Last         Meeting                                 
+Name         Name         Location                                
+============ ============ ========================================
+MrTheEd      Cauthorn     Manchester Community College            
+                                                                  
+                                                                  
+
+Locations By Contact                                page         2
+                                                                  
+First        Last         Meeting                                 
+Name         Name         Location                                
+============ ============ ========================================
+James        Fulford      Manchester Community College            
+                          Manchester Barnes and Noble             
+                                                                  
+                                                                  
+
