@@ -1,2 +1,0 @@
-@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initTables\locationList/createTable locationList.sql'
-@'C:\Users\James\Desktop\Oracle\tutoringSchema\radiosilence\initTables\locationList/grantRightsToRoles locationList.sql'
