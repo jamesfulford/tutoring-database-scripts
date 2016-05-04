@@ -1,0 +1,10 @@
+@@grantRightsToRoles-contacts.sql
+@@grantRightsToRoles-expenseList.sql
+@@grantRightsToRoles-expenses.sql
+@@grantRightsToRoles-locationList.sql
+@@grantRightsToRoles-logs.sql
+@@grantRightsToRoles-payments.sql
+@@grantRightsToRoles-rs_contact_location.sql
+@@grantRightsToRoles-rs_contact_subject.sql
+@@grantRightsToRoles-subjectList.sql
+@@grantRightsToRoles-tutors.sql
