@@ -1,9 +1,0 @@
-
-Contact Information                                                         page         1
-                                                                                          
-First        Last         Phone        Email                                              
-Name         Name         Number       Address                                            
-============ ============ ============ ========================================           
-James        Fulford      603 732 7455 james.patrick.fulford@gmail.com                    
-MrTheEd      Cauthorn     null         null                                               
-
