@@ -1,0 +1,1 @@
+INSERT INTO logs (log_Id, whenStarted, appointmentMadeOn, lengthHours, contact_Id, subject_Id, tutor_Id, location_Id, rate, discount) values ('AP0',  TO_TIMESTAMP('10/1/2016', 'mm/dd/yyyy hh24:mi'), TO_DATE('04/26/2016', 'MM/DD/YYYY'),  2,  'RS1',  'S0',  'T0',  'L1',  20,  0);
